@@ -1,0 +1,9 @@
+obj\Debug\logean.exe
+obj\Debug\logean.pdb
+bin\Debug\logean.exe
+bin\Debug\logean.pdb
+bin\Debug\OpenNETCF.Desktop.Communication.dll
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\logean.Form1.resources
+obj\Debug\logean.Properties.Resources.resources
+obj\Debug\logean.csproj.GenerateResource.Cache

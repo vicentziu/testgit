@@ -1,0 +1,16 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\msi.Properties.Resources.resources
+obj\Debug\msi.csproj.GenerateResource.Cache
+bin\Debug\msi.exe
+bin\Debug\msi.pdb
+obj\Debug\msi.exe
+obj\Debug\msi.pdb
+obj\Debug\msi.Form1.resources
+bin\Release\msi.exe
+bin\Release\msi.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\msi.Form1.resources
+obj\Release\msi.Properties.Resources.resources
+obj\Release\msi.csproj.GenerateResource.Cache
+obj\Release\msi.exe
+obj\Release\msi.pdb

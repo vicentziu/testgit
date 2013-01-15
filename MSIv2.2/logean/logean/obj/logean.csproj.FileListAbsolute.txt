@@ -1,0 +1,2 @@
+c:\agi\msi\v2.2\logean\logean\obj\Debug\logean.exe
+c:\agi\msi\v2.2\logean\logean\obj\Debug\logean.pdb
