@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet1" msprop:Generator_DataSetName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable_con" msprop:Generator_UserTableName="DataTable_con" msprop:Generator_RowDeletedName="DataTable_conRowDeleted" msprop:Generator_RowChangedName="DataTable_conRowChanged" msprop:Generator_RowClassName="DataTable_conRow" msprop:Generator_RowChangingName="DataTable_conRowChanging" msprop:Generator_RowEvArgName="DataTable_conRowChangeEvent" msprop:Generator_RowEvHandlerName="DataTable_conRowChangeEventHandler" msprop:Generator_TableClassName="DataTable_conDataTable" msprop:Generator_TableVarName="tableDataTable_con" msprop:Generator_RowDeletingName="DataTable_conRowDeleting" msprop:Generator_TablePropName="DataTable_con">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="storecode" msprop:Generator_UserColumnName="storecode" msprop:Generator_ColumnPropNameInRow="storecode" msprop:Generator_ColumnVarNameInTable="columnstorecode" msprop:Generator_ColumnPropNameInTable="storecodeColumn" type="xs:int" />
+              <xs:element name="ean" msprop:Generator_UserColumnName="ean" msprop:Generator_ColumnPropNameInRow="ean" msprop:Generator_ColumnVarNameInTable="columnean" msprop:Generator_ColumnPropNameInTable="eanColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="price" msprop:Generator_UserColumnName="price" msprop:Generator_ColumnPropNameInRow="price" msprop:Generator_ColumnVarNameInTable="columnprice" msprop:Generator_ColumnPropNameInTable="priceColumn" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable_real" msprop:Generator_UserTableName="DataTable_real" msprop:Generator_RowDeletedName="DataTable_realRowDeleted" msprop:Generator_RowChangedName="DataTable_realRowChanged" msprop:Generator_RowClassName="DataTable_realRow" msprop:Generator_RowChangingName="DataTable_realRowChanging" msprop:Generator_RowEvArgName="DataTable_realRowChangeEvent" msprop:Generator_RowEvHandlerName="DataTable_realRowChangeEventHandler" msprop:Generator_TableClassName="DataTable_realDataTable" msprop:Generator_TableVarName="tableDataTable_real" msprop:Generator_RowDeletingName="DataTable_realRowDeleting" msprop:Generator_TablePropName="DataTable_real">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ean" msprop:Generator_UserColumnName="ean" msprop:Generator_ColumnVarNameInTable="columnean" msprop:Generator_ColumnPropNameInRow="ean" msprop:Generator_ColumnPropNameInTable="eanColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="quantity" msprop:Generator_UserColumnName="quantity" msprop:Generator_ColumnVarNameInTable="columnquantity" msprop:Generator_ColumnPropNameInRow="quantity" msprop:Generator_ColumnPropNameInTable="quantityColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="devaluation" msprop:Generator_UserColumnName="devaluation" msprop:Generator_ColumnVarNameInTable="columndevaluation" msprop:Generator_ColumnPropNameInRow="devaluation" msprop:Generator_ColumnPropNameInTable="devaluationColumn" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable_label" msprop:Generator_UserTableName="DataTable_label" msprop:Generator_RowDeletedName="DataTable_labelRowDeleted" msprop:Generator_RowChangedName="DataTable_labelRowChanged" msprop:Generator_RowClassName="DataTable_labelRow" msprop:Generator_RowChangingName="DataTable_labelRowChanging" msprop:Generator_RowEvArgName="DataTable_labelRowChangeEvent" msprop:Generator_RowEvHandlerName="DataTable_labelRowChangeEventHandler" msprop:Generator_TableClassName="DataTable_labelDataTable" msprop:Generator_TableVarName="tableDataTable_label" msprop:Generator_RowDeletingName="DataTable_labelRowDeleting" msprop:Generator_TablePropName="DataTable_label">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ean" msprop:Generator_UserColumnName="ean" msprop:Generator_ColumnPropNameInRow="ean" msprop:Generator_ColumnVarNameInTable="columnean" msprop:Generator_ColumnPropNameInTable="eanColumn" type="xs:double" />
+              <xs:element name="price" msprop:Generator_UserColumnName="price" msprop:Generator_ColumnPropNameInRow="price" msprop:Generator_ColumnVarNameInTable="columnprice" msprop:Generator_ColumnPropNameInTable="priceColumn" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable_takeover" msprop:Generator_UserTableName="DataTable_takeover" msprop:Generator_RowDeletedName="DataTable_takeoverRowDeleted" msprop:Generator_RowChangedName="DataTable_takeoverRowChanged" msprop:Generator_RowClassName="DataTable_takeoverRow" msprop:Generator_RowChangingName="DataTable_takeoverRowChanging" msprop:Generator_RowEvArgName="DataTable_takeoverRowChangeEvent" msprop:Generator_RowEvHandlerName="DataTable_takeoverRowChangeEventHandler" msprop:Generator_TableClassName="DataTable_takeoverDataTable" msprop:Generator_TableVarName="tableDataTable_takeover" msprop:Generator_RowDeletingName="DataTable_takeoverRowDeleting" msprop:Generator_TablePropName="DataTable_takeover">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="takeovernum" msprop:Generator_UserColumnName="takeovernum" msprop:Generator_ColumnPropNameInRow="takeovernum" msprop:Generator_ColumnVarNameInTable="columntakeovernum" msprop:Generator_ColumnPropNameInTable="takeovernumColumn" type="xs:int" />
+              <xs:element name="ean" msprop:Generator_UserColumnName="ean" msprop:Generator_ColumnPropNameInRow="ean" msprop:Generator_ColumnVarNameInTable="columnean" msprop:Generator_ColumnPropNameInTable="eanColumn" type="xs:double" />
+              <xs:element name="quantity" msprop:Generator_UserColumnName="quantity" msprop:Generator_ColumnPropNameInRow="quantity" msprop:Generator_ColumnVarNameInTable="columnquantity" msprop:Generator_ColumnPropNameInTable="quantityColumn" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable_MSI" msprop:Generator_UserTableName="DataTable_MSI" msprop:Generator_RowDeletedName="DataTable_MSIRowDeleted" msprop:Generator_RowChangedName="DataTable_MSIRowChanged" msprop:Generator_RowClassName="DataTable_MSIRow" msprop:Generator_RowChangingName="DataTable_MSIRowChanging" msprop:Generator_RowEvArgName="DataTable_MSIRowChangeEvent" msprop:Generator_RowEvHandlerName="DataTable_MSIRowChangeEventHandler" msprop:Generator_TableClassName="DataTable_MSIDataTable" msprop:Generator_TableVarName="tableDataTable_MSI" msprop:Generator_RowDeletingName="DataTable_MSIRowDeleting" msprop:Generator_TablePropName="DataTable_MSI">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ean" msprop:Generator_UserColumnName="ean" msprop:Generator_ColumnPropNameInRow="ean" msprop:Generator_ColumnVarNameInTable="columnean" msprop:Generator_ColumnPropNameInTable="eanColumn" type="xs:double" />
+              <xs:element name="quantity" msprop:Generator_UserColumnName="quantity" msprop:Generator_ColumnPropNameInRow="quantity" msprop:Generator_ColumnVarNameInTable="columnquantity" msprop:Generator_ColumnPropNameInTable="quantityColumn" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
